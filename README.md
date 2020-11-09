@@ -6,6 +6,14 @@
 
 ## Quick Start
 
+测试
+
+```sh
+node exmaple.js
+```
+
+代码使用方法
+
 ```
 import swaggerCherryPick from "./index.js";
 import fs from "fs";

@@ -1,16 +1,16 @@
 {
-  "name": "swagger-parse",
+  "name": "@36node/swagger-cherry-picker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "module": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node example.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "36node",
+  "license": "MIT",
   "dependencies": {
     "@apidevtools/swagger-parser": "^10.0.2",
     "json2yaml": "^1.1.0",
