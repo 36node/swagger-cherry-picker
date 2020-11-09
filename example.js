@@ -1,12 +1,3 @@
-# swagger-cherry-picker
-
-通过输入所需方法的数组，提取 openapi 部分方法
-
-**支持输入 文件路径 和 url**
-
-## Quick Start
-
-```
 import swaggerCherryPick from "./index.js";
 import fs from "fs";
 import yaml from "json2yaml";
@@ -31,4 +22,3 @@ swaggerCherryPick(file, newFile, operationIds).then((ret) => {
   saveFile("./new.json", JSON.stringify(ret, null, 2));
   saveFile("./new.yaml", yaml.stringify(ret));
 });
-```
