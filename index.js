@@ -1,7 +1,7 @@
 import SwaggerParser from "@apidevtools/swagger-parser";
 import lodash from "lodash";
 
-const cherryPick = async (pathOrUrl, newFileName, ids) => {
+const cherryPick = async (pathOrUrl, ids) => {
   const api = await SwaggerParser.validate(pathOrUrl);
   const ret = lodash.cloneDeep(api);
 

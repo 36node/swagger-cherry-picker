@@ -14,11 +14,9 @@ const saveFile = (fileName, str) => {
 
 // const file = "./test.yml";
 const file = "https://api.youyuan.36node.com/core/uat/openapi.yml";
-const newFile = "./new.yml";
-
 const operationIds = ["createPark", "listRepairs", "updateMaintain"];
 
-swaggerCherryPick(file, newFile, operationIds).then((ret) => {
+swaggerCherryPick(file, operationIds).then((ret) => {
   saveFile("./new.json", JSON.stringify(ret, null, 2));
   saveFile("./new.yaml", yaml.stringify(ret));
 });
