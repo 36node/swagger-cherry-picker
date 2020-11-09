@@ -1,7 +1,7 @@
 {
   "name": "@36node/swagger-cherry-picker",
   "version": "0.1.0",
-  "description": "",
+  "description": "cherry pick openapi",
   "type": "module",
   "module": "index.js",
   "repository": {
